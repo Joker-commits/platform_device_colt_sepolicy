@@ -24,3 +24,6 @@
 
 # Bash
 /system/xbin/bash          u:object_r:shell_exec:s0
+
+# vbswap device for zswap
+/dev/block/vbswap0         u:object_r:swap_block_device:s0
