@@ -26,7 +26,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/colt/sepolicy/common/dynamic \
     device/colt/sepolicy/common/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/colt/sepolicy/common/dynamic \
     device/colt/sepolicy/common/vendor
 endif
